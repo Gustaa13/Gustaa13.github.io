@@ -1,0 +1,110 @@
+body{
+    font-family: monospace;
+    background: var(--bg);
+}
+
+ul{
+    font-family: Helvetica;
+    position: relative;
+    top: 280px;
+}
+
+h1{
+    margin-left: 150px;
+}
+
+ol{
+    font-family: Helvetica;
+    position: relative;
+    top: 280px;
+}
+
+p{
+    position: relative;
+    top: 280px;
+}
+
+li{
+    list-style: circle;
+}
+
+.list{
+    list-style: square;
+    margin-bottom: 5px;
+}
+
+.list-order{
+    list-style: decimal;
+    margin-bottom: 10px;
+}
+
+#igd{
+    font-family: monospace;
+    font-size: x-large;
+}
+
+#ass{
+    position: absolute;
+    right: 10px;
+    top: 900px;
+    font-family: monospace;
+    font-size: x-small;
+}
+
+#mdp{
+    font-family: monospace;
+    font-size: x-large;
+}
+
+.light-theme{
+    --bg: var(--white);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+
+.dark-theme{
+    --bg: var(--gray);
+    --fontColor:var(--white);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+
+:root{
+    --green: #00FF00;
+    --white: #ffffff;
+    --black: #000000;
+    --gray: #1C1C1C;
+}
+
+* {
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
+.btn{
+    position: absolute;
+    top: 850px;
+    left: 20px;
+    height: 60px;
+    width: 60px;
+    border-radius: 20%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.btn:focus { outline-style: none; }
+
+.imagem-pudim{
+    position: absolute;
+    top: 80px;
+    width: 30%;
+    left: 10px;
+    border-radius: 10%;
+    height: 250px; /* Defina a altura desejada */
+    background-image: url('https://www.receitasnestle.com.br/sites/default/files/styles/full_width_image_1920x795_/public/oembed_thumbnails/ZJ2KHl7yQYnGur7SGzluxDyvLY9acHVQ-OoVaaIMPBY.jpg?itok=6-f-Wjnu');
+    background-size: cover; /* Faz a imagem cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+}
